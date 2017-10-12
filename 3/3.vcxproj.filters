@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation">
+      <UniqueIdentifier>{b6628019-7489-47d7-8780-062c3bc91609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\auxil_animation">
+      <UniqueIdentifier>{388733d3-a2ca-478c-a896-cfbfafd9f5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\game_logic">
+      <UniqueIdentifier>{42b8c0fb-6483-4c62-8e22-86bc666ce8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects">
+      <UniqueIdentifier>{17e87273-2f5f-4c0a-b03f-11b535b0ffa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\ball">
+      <UniqueIdentifier>{20003b3d-9ba7-477f-b031-90d5efb54895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\pad">
+      <UniqueIdentifier>{de7ab845-0d76-4100-a506-3f3eeafdf63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\background">
+      <UniqueIdentifier>{5930ef12-d223-4390-906a-eb31f477531e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\road">
+      <UniqueIdentifier>{2a810dc5-df27-4763-904d-0ae80078e5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\road\point">
+      <UniqueIdentifier>{b8fced2d-4f92-4b59-b4d6-d7957b6ed1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\ball_creator">
+      <UniqueIdentifier>{58fb7af6-4a7f-4986-8f3c-e8a6382fc641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\score">
+      <UniqueIdentifier>{856e42d5-b574-47d9-a277-5182468b5c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\waiter">
+      <UniqueIdentifier>{8055d2ed-56ae-4f1e-bb74-5a42b274dd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\animation\objects\menu">
+      <UniqueIdentifier>{65f99c82-2c8b-467e-bdbe-1274f843db53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Файлы исходного кода\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>Файлы исходного кода\animation\objects\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="auxil_animation.cpp">
+      <Filter>Файлы исходного кода\animation\auxil_animation</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic.cpp">
+      <Filter>Файлы исходного кода\animation\game_logic</Filter>
+    </ClCompile>
+    <ClCompile Include="pad.cpp">
+      <Filter>Файлы исходного кода\animation\objects\pad</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Файлы исходного кода\animation\objects\background</Filter>
+    </ClCompile>
+    <ClCompile Include="road.cpp">
+      <Filter>Файлы исходного кода\animation\objects\road</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Файлы исходного кода\animation\objects\road\point</Filter>
+    </ClCompile>
+    <ClCompile Include="ball_creator.cpp">
+      <Filter>Файлы исходного кода\animation\objects\ball_creator</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>Файлы исходного кода\animation\objects\score</Filter>
+    </ClCompile>
+    <ClCompile Include="waiter.cpp">
+      <Filter>Файлы исходного кода\animation\objects\waiter</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Файлы исходного кода\animation\objects\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h">
+      <Filter>Файлы исходного кода\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>Файлы исходного кода\animation\objects\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="auxil_animation.h">
+      <Filter>Файлы исходного кода\animation\auxil_animation</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic.h">
+      <Filter>Файлы исходного кода\animation\game_logic</Filter>
+    </ClInclude>
+    <ClInclude Include="pad.h">
+      <Filter>Файлы исходного кода\animation\objects\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Файлы исходного кода\animation\objects\background</Filter>
+    </ClInclude>
+    <ClInclude Include="road.h">
+      <Filter>Файлы исходного кода\animation\objects\road</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Файлы исходного кода\animation\objects\road\point</Filter>
+    </ClInclude>
+    <ClInclude Include="ball_creator.h">
+      <Filter>Файлы исходного кода\animation\objects\ball_creator</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>Файлы исходного кода\animation\objects\score</Filter>
+    </ClInclude>
+    <ClInclude Include="waiter.h">
+      <Filter>Файлы исходного кода\animation\objects\waiter</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Файлы исходного кода\animation\objects\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
